@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Isabella Defilippis">
+    <meta name="description" content="Curriculum Vitae">
+    <title>Evaluacion final</title>
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.svg" alt="Logo personal" height="80px"></img>
+      <h1>Curriculum Vitae</h1>
+      <h2>Isabella Defilippis</h2>
+    </header>
+    <nav>
+      <a href="index.html">Inicio</a> <br/>
+      <a href="educacion.html">Educacion</a> <br/>
+      <a href="experiencia.html">Experiencia</a> <br/>
+    </nav>
+    <section>
+      <h3>Educación</h3>
+      <p>
+      <table border="1" cellpadding="3">
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2003</td>
+            <td>Maryknoll</td>
+            <td>Cochabamba-Bolivia</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2008</td>
+            <td>San Agustin</td>
+            <td>Cochabamba-Bolivia</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2015</td>
+            <td>Universidad Privada Boliviana</td>
+            <td>Cochabamba-Bolivia</td>
+            <td>En curso</td>
+          </tr>
+        </tbody>
+      </table>
+      </p>
+    </section>
+    <section>
+      <form name="Estudios">
+        <legend>
+          <h3>Agregar Estudios</h3>
+        </legend>
+        <p>
+        <label for="anho"><strong>Año: </strong></label>
+        <select id="anho">
+            <option>2017</option>
+            <option>2016</option>
+            <option>2015</option>
+            <option>Otro</option>
+          </select>
+        </p>
+        <p>
+        <label for="institucion"><strong>Institución: </strong></label>
+        <input id="institucion"type="text" required></input>
+        </p>
+        <p>
+        <label for="lugar"><strong>Lugar: </strong></label>
+        <textarea rows="2" cols="30"></textarea>
+        </p>
+        <p><strong>¿Culminó?</strong>
+        <input type="radio" name="culmino" value="si">Si </input>
+        <input type="radio" name="culmino" value="no">No</input>
+        </p>
+        <p>
+          <input type="submit" value="Enviar">
+        </p>
+      </form>
+    </section>
+    <footer>
+    <p>
+    <br/>
+    <em>Derechos reservados</em>
+    </p>
+    <ul>
+      <li> Correo Electrónico: <a href="mailto:isastedef@gmail.com?Subject=Examen">isastedef@gmail.com</a></li>
+      <li>Telefono: (+591) 65740360</li>
+    </ul>
+    </footer>
+  </body>
+</html>

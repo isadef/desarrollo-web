@@ -1,0 +1,65 @@
+body
+{
+  background: url(../images/backgroundIm.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.header
+{
+  border-bottom: 1px solid gray;
+  margin-bottom: 10px;
+}
+.main
+{
+  color: white;
+  background-color: rgba(72,61,139,0.5);
+}
+.foodIm
+{
+  width: 100%;
+}
+.comments
+{
+  border: 1px solid gray;
+  margin: 3px 5px;
+}
+.comments div
+{
+  padding: 5px;
+}
+.comments img
+{
+  width: 100%;
+}
+.colIz
+{
+  padding: 10px;
+}
+.mymenu li
+{
+  border: 1px solid gray;
+}
+.mymenu li a, .historial li a
+{
+  color: white;
+}
+.colIz .parte
+{
+  padding: 15px 3px;
+}
+.imagenes
+{
+  width: 100%;
+}
+.filaIm
+{
+  padding: 10px;
+}
+.filaIm div
+{
+  margin-bottom: 5px;
+}
+h6
+{
+  color: gray;
+}

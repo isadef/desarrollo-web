@@ -1,0 +1,105 @@
+body
+{
+  background-color:	#FFF5EE;
+}
+header
+{
+  background-color: purple;
+}
+div.container
+{
+  background-color: #4B0082;
+}
+.mynavbar
+{
+  background-color: 	#191970;
+  min-height: 15%;   
+}
+.mynavbar li
+{
+  text-align: center;
+}
+#logo
+{
+  width: 25%;
+}
+.redes-sociales
+{
+  padding-top: 7%;
+  padding-bottom: 3%;
+}
+.redes-sociales a:hover
+{
+  opacity: 0.5;
+}
+.img-social
+{
+  height: 50px;
+  width: 50px;
+}
+div.main
+{
+  color: white;
+}
+.mynavbar .nav li a:hover
+{
+  color: white;
+  background-color: purple;
+}
+.mynavbar .nav li a
+{
+  color: #ADD8E6;
+}
+.leftCol li:hover
+{
+  background-color: gray;
+}
+.row .images
+{
+  width: 100%;
+  margin-top: 6%;
+  margin-bottom: 3%;
+}
+.imgCom
+{
+  width: 80px;
+  height: 80px;
+}
+#comment
+{
+  width: 100%;
+  height: 80px;
+  display: inline;
+}
+.leftCol
+{
+  padding: 5px;
+  color: black;
+}
+.leftCol li
+{
+  background-color: #F8F8FF;
+}
+.leftCol div
+{
+  margin-bottom: 5px;
+}
+article
+{
+  padding: 10px;
+}
+article .row
+{
+  padding: 5px 5px 5px 10px;
+}
+@media (min-width: 768px) 
+{
+  .topMenu
+  {
+    width: 100%;
+  }
+  .topMenu li
+  {
+    width: 16%;
+  }
+}

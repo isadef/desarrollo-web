@@ -2,10 +2,14 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "Evaluacion final",
+  "scripts": {
+    "start": "cd server && node index.js"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "express": "^4.16.2",
     "path": "^0.12.7"
   }
 }
